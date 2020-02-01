@@ -1,15 +1,15 @@
 //
-//  DesignSystemTests.swift
-//  DesignSystemTests
+//  UIDesignSystemTests.swift
+//  UIDesignSystemTests
 //
 //  Created by Carles Cañadas Torrents on 01/02/2020.
 //  Copyright © 2020 karlesct. All rights reserved.
 //
 
 import XCTest
-@testable import DesignSystem
+@testable import UIDesignSystem
 
-class DesignSystemTests: XCTestCase {
+class UIDesignSystemTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

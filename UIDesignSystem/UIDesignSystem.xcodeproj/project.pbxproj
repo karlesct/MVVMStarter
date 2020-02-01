@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		270B354C23E5DC46008F0102 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270B354223E5DC46008F0102 /* DesignSystem.framework */; };
-		270B355123E5DC46008F0102 /* DesignSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B355023E5DC46008F0102 /* DesignSystemTests.swift */; };
-		270B355323E5DC46008F0102 /* DesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 270B354523E5DC46008F0102 /* DesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		270B356323E5DC90008F0102 /* UIElements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270B356223E5DC90008F0102 /* UIElements.framework */; };
-		270B356423E5DC90008F0102 /* UIElements.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 270B356223E5DC90008F0102 /* UIElements.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		270B35AC23E5E109008F0102 /* UIDesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270B35A223E5E109008F0102 /* UIDesignSystem.framework */; };
+		270B35B123E5E109008F0102 /* UIDesignSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B35B023E5E109008F0102 /* UIDesignSystemTests.swift */; };
+		270B35B323E5E109008F0102 /* UIDesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 270B35A523E5E109008F0102 /* UIDesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		270B35BE23E5E125008F0102 /* UIElements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270B35BD23E5E125008F0102 /* UIElements.framework */; };
+		270B35BF23E5E125008F0102 /* UIElements.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 270B35BD23E5E125008F0102 /* UIElements.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		270B354D23E5DC46008F0102 /* PBXContainerItemProxy */ = {
+		270B35AD23E5E109008F0102 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 270B353923E5DC46008F0102 /* Project object */;
+			containerPortal = 270B359923E5E109008F0102 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 270B354123E5DC46008F0102;
-			remoteInfo = DesignSystem;
+			remoteGlobalIDString = 270B35A123E5E109008F0102;
+			remoteInfo = UIDesignSystem;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		270B356523E5DC90008F0102 /* Embed Frameworks */ = {
+		270B35C023E5E125008F0102 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				270B356423E5DC90008F0102 /* UIElements.framework in Embed Frameworks */,
+				270B35BF23E5E125008F0102 /* UIElements.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,76 +39,76 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		270B354223E5DC46008F0102 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		270B354523E5DC46008F0102 /* DesignSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignSystem.h; sourceTree = "<group>"; };
-		270B354623E5DC46008F0102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		270B354B23E5DC46008F0102 /* DesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		270B355023E5DC46008F0102 /* DesignSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemTests.swift; sourceTree = "<group>"; };
-		270B355223E5DC46008F0102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		270B356223E5DC90008F0102 /* UIElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		270B35A223E5E109008F0102 /* UIDesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIDesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		270B35A523E5E109008F0102 /* UIDesignSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDesignSystem.h; sourceTree = "<group>"; };
+		270B35A623E5E109008F0102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270B35AB23E5E109008F0102 /* UIDesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		270B35B023E5E109008F0102 /* UIDesignSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDesignSystemTests.swift; sourceTree = "<group>"; };
+		270B35B223E5E109008F0102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270B35BD23E5E125008F0102 /* UIElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		270B353F23E5DC46008F0102 /* Frameworks */ = {
+		270B359F23E5E109008F0102 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				270B356323E5DC90008F0102 /* UIElements.framework in Frameworks */,
+				270B35BE23E5E125008F0102 /* UIElements.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		270B354823E5DC46008F0102 /* Frameworks */ = {
+		270B35A823E5E109008F0102 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				270B354C23E5DC46008F0102 /* DesignSystem.framework in Frameworks */,
+				270B35AC23E5E109008F0102 /* UIDesignSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		270B353823E5DC46008F0102 = {
+		270B359823E5E109008F0102 = {
 			isa = PBXGroup;
 			children = (
-				270B354423E5DC46008F0102 /* DesignSystem */,
-				270B354F23E5DC46008F0102 /* DesignSystemTests */,
-				270B354323E5DC46008F0102 /* Products */,
-				270B356123E5DC90008F0102 /* Frameworks */,
+				270B35A423E5E109008F0102 /* UIDesignSystem */,
+				270B35AF23E5E109008F0102 /* UIDesignSystemTests */,
+				270B35A323E5E109008F0102 /* Products */,
+				270B35BC23E5E125008F0102 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		270B354323E5DC46008F0102 /* Products */ = {
+		270B35A323E5E109008F0102 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				270B354223E5DC46008F0102 /* DesignSystem.framework */,
-				270B354B23E5DC46008F0102 /* DesignSystemTests.xctest */,
+				270B35A223E5E109008F0102 /* UIDesignSystem.framework */,
+				270B35AB23E5E109008F0102 /* UIDesignSystemTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		270B354423E5DC46008F0102 /* DesignSystem */ = {
+		270B35A423E5E109008F0102 /* UIDesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				270B354523E5DC46008F0102 /* DesignSystem.h */,
-				270B354623E5DC46008F0102 /* Info.plist */,
+				270B35A523E5E109008F0102 /* UIDesignSystem.h */,
+				270B35A623E5E109008F0102 /* Info.plist */,
 			);
-			path = DesignSystem;
+			path = UIDesignSystem;
 			sourceTree = "<group>";
 		};
-		270B354F23E5DC46008F0102 /* DesignSystemTests */ = {
+		270B35AF23E5E109008F0102 /* UIDesignSystemTests */ = {
 			isa = PBXGroup;
 			children = (
-				270B355023E5DC46008F0102 /* DesignSystemTests.swift */,
-				270B355223E5DC46008F0102 /* Info.plist */,
+				270B35B023E5E109008F0102 /* UIDesignSystemTests.swift */,
+				270B35B223E5E109008F0102 /* Info.plist */,
 			);
-			path = DesignSystemTests;
+			path = UIDesignSystemTests;
 			sourceTree = "<group>";
 		};
-		270B356123E5DC90008F0102 /* Frameworks */ = {
+		270B35BC23E5E125008F0102 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				270B356223E5DC90008F0102 /* UIElements.framework */,
+				270B35BD23E5E125008F0102 /* UIElements.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,73 +116,73 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		270B353D23E5DC46008F0102 /* Headers */ = {
+		270B359D23E5E109008F0102 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				270B355323E5DC46008F0102 /* DesignSystem.h in Headers */,
+				270B35B323E5E109008F0102 /* UIDesignSystem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		270B354123E5DC46008F0102 /* DesignSystem */ = {
+		270B35A123E5E109008F0102 /* UIDesignSystem */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 270B355623E5DC46008F0102 /* Build configuration list for PBXNativeTarget "DesignSystem" */;
+			buildConfigurationList = 270B35B623E5E109008F0102 /* Build configuration list for PBXNativeTarget "UIDesignSystem" */;
 			buildPhases = (
-				270B353D23E5DC46008F0102 /* Headers */,
-				270B353E23E5DC46008F0102 /* Sources */,
-				270B353F23E5DC46008F0102 /* Frameworks */,
-				270B354023E5DC46008F0102 /* Resources */,
-				270B356523E5DC90008F0102 /* Embed Frameworks */,
+				270B359D23E5E109008F0102 /* Headers */,
+				270B359E23E5E109008F0102 /* Sources */,
+				270B359F23E5E109008F0102 /* Frameworks */,
+				270B35A023E5E109008F0102 /* Resources */,
+				270B35C023E5E125008F0102 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DesignSystem;
-			productName = DesignSystem;
-			productReference = 270B354223E5DC46008F0102 /* DesignSystem.framework */;
+			name = UIDesignSystem;
+			productName = UIDesignSystem;
+			productReference = 270B35A223E5E109008F0102 /* UIDesignSystem.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		270B354A23E5DC46008F0102 /* DesignSystemTests */ = {
+		270B35AA23E5E109008F0102 /* UIDesignSystemTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 270B355923E5DC46008F0102 /* Build configuration list for PBXNativeTarget "DesignSystemTests" */;
+			buildConfigurationList = 270B35B923E5E109008F0102 /* Build configuration list for PBXNativeTarget "UIDesignSystemTests" */;
 			buildPhases = (
-				270B354723E5DC46008F0102 /* Sources */,
-				270B354823E5DC46008F0102 /* Frameworks */,
-				270B354923E5DC46008F0102 /* Resources */,
+				270B35A723E5E109008F0102 /* Sources */,
+				270B35A823E5E109008F0102 /* Frameworks */,
+				270B35A923E5E109008F0102 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				270B354E23E5DC46008F0102 /* PBXTargetDependency */,
+				270B35AE23E5E109008F0102 /* PBXTargetDependency */,
 			);
-			name = DesignSystemTests;
-			productName = DesignSystemTests;
-			productReference = 270B354B23E5DC46008F0102 /* DesignSystemTests.xctest */;
+			name = UIDesignSystemTests;
+			productName = UIDesignSystemTests;
+			productReference = 270B35AB23E5E109008F0102 /* UIDesignSystemTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		270B353923E5DC46008F0102 /* Project object */ = {
+		270B359923E5E109008F0102 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = karlesct;
 				TargetAttributes = {
-					270B354123E5DC46008F0102 = {
+					270B35A123E5E109008F0102 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					270B354A23E5DC46008F0102 = {
+					270B35AA23E5E109008F0102 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 270B353C23E5DC46008F0102 /* Build configuration list for PBXProject "DesignSystem" */;
+			buildConfigurationList = 270B359C23E5E109008F0102 /* Build configuration list for PBXProject "UIDesignSystem" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -190,26 +190,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 270B353823E5DC46008F0102;
-			productRefGroup = 270B354323E5DC46008F0102 /* Products */;
+			mainGroup = 270B359823E5E109008F0102;
+			productRefGroup = 270B35A323E5E109008F0102 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				270B354123E5DC46008F0102 /* DesignSystem */,
-				270B354A23E5DC46008F0102 /* DesignSystemTests */,
+				270B35A123E5E109008F0102 /* UIDesignSystem */,
+				270B35AA23E5E109008F0102 /* UIDesignSystemTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		270B354023E5DC46008F0102 /* Resources */ = {
+		270B35A023E5E109008F0102 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		270B354923E5DC46008F0102 /* Resources */ = {
+		270B35A923E5E109008F0102 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,33 +219,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		270B353E23E5DC46008F0102 /* Sources */ = {
+		270B359E23E5E109008F0102 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		270B354723E5DC46008F0102 /* Sources */ = {
+		270B35A723E5E109008F0102 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				270B355123E5DC46008F0102 /* DesignSystemTests.swift in Sources */,
+				270B35B123E5E109008F0102 /* UIDesignSystemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		270B354E23E5DC46008F0102 /* PBXTargetDependency */ = {
+		270B35AE23E5E109008F0102 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 270B354123E5DC46008F0102 /* DesignSystem */;
-			targetProxy = 270B354D23E5DC46008F0102 /* PBXContainerItemProxy */;
+			target = 270B35A123E5E109008F0102 /* UIDesignSystem */;
+			targetProxy = 270B35AD23E5E109008F0102 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		270B355423E5DC46008F0102 /* Debug */ = {
+		270B35B423E5E109008F0102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		270B355523E5DC46008F0102 /* Release */ = {
+		270B35B523E5E109008F0102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,7 +365,7 @@
 			};
 			name = Release;
 		};
-		270B355723E5DC46008F0102 /* Debug */ = {
+		270B35B723E5E109008F0102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -373,14 +373,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DesignSystem/Info.plist;
+				INFOPLIST_FILE = UIDesignSystem/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.architecture.MVVM.DesignSystem;
+				PRODUCT_BUNDLE_IDENTIFIER = es.architecture.MVVM.UIDesignSystem;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -388,7 +388,7 @@
 			};
 			name = Debug;
 		};
-		270B355823E5DC46008F0102 /* Release */ = {
+		270B35B823E5E109008F0102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -396,14 +396,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DesignSystem/Info.plist;
+				INFOPLIST_FILE = UIDesignSystem/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.architecture.MVVM.DesignSystem;
+				PRODUCT_BUNDLE_IDENTIFIER = es.architecture.MVVM.UIDesignSystem;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -411,34 +411,34 @@
 			};
 			name = Release;
 		};
-		270B355A23E5DC46008F0102 /* Debug */ = {
+		270B35BA23E5E109008F0102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DesignSystemTests/Info.plist;
+				INFOPLIST_FILE = UIDesignSystemTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.architecture.MVVM.DesignSystemTests;
+				PRODUCT_BUNDLE_IDENTIFIER = es.architecture.MVVM.UIDesignSystemTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		270B355B23E5DC46008F0102 /* Release */ = {
+		270B35BB23E5E109008F0102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DesignSystemTests/Info.plist;
+				INFOPLIST_FILE = UIDesignSystemTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.architecture.MVVM.DesignSystemTests;
+				PRODUCT_BUNDLE_IDENTIFIER = es.architecture.MVVM.UIDesignSystemTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,34 +448,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		270B353C23E5DC46008F0102 /* Build configuration list for PBXProject "DesignSystem" */ = {
+		270B359C23E5E109008F0102 /* Build configuration list for PBXProject "UIDesignSystem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				270B355423E5DC46008F0102 /* Debug */,
-				270B355523E5DC46008F0102 /* Release */,
+				270B35B423E5E109008F0102 /* Debug */,
+				270B35B523E5E109008F0102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		270B355623E5DC46008F0102 /* Build configuration list for PBXNativeTarget "DesignSystem" */ = {
+		270B35B623E5E109008F0102 /* Build configuration list for PBXNativeTarget "UIDesignSystem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				270B355723E5DC46008F0102 /* Debug */,
-				270B355823E5DC46008F0102 /* Release */,
+				270B35B723E5E109008F0102 /* Debug */,
+				270B35B823E5E109008F0102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		270B355923E5DC46008F0102 /* Build configuration list for PBXNativeTarget "DesignSystemTests" */ = {
+		270B35B923E5E109008F0102 /* Build configuration list for PBXNativeTarget "UIDesignSystemTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				270B355A23E5DC46008F0102 /* Debug */,
-				270B355B23E5DC46008F0102 /* Release */,
+				270B35BA23E5E109008F0102 /* Debug */,
+				270B35BB23E5E109008F0102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 270B353923E5DC46008F0102 /* Project object */;
+	rootObject = 270B359923E5E109008F0102 /* Project object */;
 }

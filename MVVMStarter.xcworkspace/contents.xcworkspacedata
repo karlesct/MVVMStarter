@@ -5,7 +5,7 @@
       location = "group:StarterApp/StarterApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:DesignSystem/DesignSystem.xcodeproj">
+      location = "group:UIDesignSystem/UIDesignSystem.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:UIElements/UIElements.xcodeproj">
