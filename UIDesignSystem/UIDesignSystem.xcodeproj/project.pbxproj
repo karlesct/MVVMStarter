@@ -90,8 +90,8 @@
 		270B35A423E5E109008F0102 /* UIDesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				270B35C923E5E3D0008F0102 /* Utils */,
 				270B35A523E5E109008F0102 /* UIDesignSystem.h */,
-				270B35A623E5E109008F0102 /* Info.plist */,
 			);
 			path = UIDesignSystem;
 			sourceTree = "<group>";
@@ -111,6 +111,22 @@
 				270B35BD23E5E125008F0102 /* UIElements.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		270B35C923E5E3D0008F0102 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				270B35CA23E5E3D5008F0102 /* plist */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		270B35CA23E5E3D5008F0102 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				270B35A623E5E109008F0102 /* Info.plist */,
+			);
+			path = plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,7 +389,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIDesignSystem/Info.plist;
+				INFOPLIST_FILE = UIDesignSystem/Utils/Plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -396,7 +412,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIDesignSystem/Info.plist;
+				INFOPLIST_FILE = UIDesignSystem/Utils/Plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

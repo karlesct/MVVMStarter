@@ -71,8 +71,9 @@
 		270B352023E5DC09008F0102 /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
+				270B35CB23E5E3FA008F0102 /* Elements */,
+				270B35C723E5E39B008F0102 /* Utils */,
 				270B352123E5DC09008F0102 /* UIElements.h */,
-				270B352223E5DC09008F0102 /* Info.plist */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -84,6 +85,37 @@
 				270B352E23E5DC09008F0102 /* Info.plist */,
 			);
 			path = UIElementsTests;
+			sourceTree = "<group>";
+		};
+		270B35C723E5E39B008F0102 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				270B35C823E5E3A1008F0102 /* Plist */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		270B35C823E5E3A1008F0102 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				270B352223E5DC09008F0102 /* Info.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		270B35CB23E5E3FA008F0102 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				270B35CC23E5E406008F0102 /* Fields */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		270B35CC23E5E406008F0102 /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fields;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,7 +377,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIElements/Info.plist;
+				INFOPLIST_FILE = UIElements/Utils/Plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -368,7 +400,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIElements/Info.plist;
+				INFOPLIST_FILE = UIElements/Utils/Plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
