@@ -10,6 +10,8 @@
 		270B352823E5DC09008F0102 /* UIElements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270B351E23E5DC09008F0102 /* UIElements.framework */; };
 		270B352D23E5DC09008F0102 /* UIElementsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B352C23E5DC09008F0102 /* UIElementsTests.swift */; };
 		270B352F23E5DC09008F0102 /* UIElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 270B352123E5DC09008F0102 /* UIElements.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		270B35CF23E5E47C008F0102 /* UIEBaseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B35CE23E5E47C008F0102 /* UIEBaseField.swift */; };
+		270B35D223E5E5B8008F0102 /* UIETextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B35D123E5E5B8008F0102 /* UIETextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		270B352723E5DC09008F0102 /* UIElementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIElementsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		270B352C23E5DC09008F0102 /* UIElementsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementsTests.swift; sourceTree = "<group>"; };
 		270B352E23E5DC09008F0102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270B35CE23E5E47C008F0102 /* UIEBaseField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEBaseField.swift; sourceTree = "<group>"; };
+		270B35D123E5E5B8008F0102 /* UIETextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIETextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +118,26 @@
 		270B35CC23E5E406008F0102 /* Fields */ = {
 			isa = PBXGroup;
 			children = (
+				270B35CD23E5E466008F0102 /* Base */,
+				270B35D023E5E546008F0102 /* TextField */,
 			);
 			path = Fields;
+			sourceTree = "<group>";
+		};
+		270B35CD23E5E466008F0102 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				270B35CE23E5E47C008F0102 /* UIEBaseField.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		270B35D023E5E546008F0102 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				270B35D123E5E5B8008F0102 /* UIETextField.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +202,7 @@
 				TargetAttributes = {
 					270B351D23E5DC09008F0102 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					270B352623E5DC09008F0102 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -227,6 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B35CF23E5E47C008F0102 /* UIEBaseField.swift in Sources */,
+				270B35D223E5E5B8008F0102 /* UIETextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +397,7 @@
 		270B353323E5DC09008F0102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -387,6 +413,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = es.architecture.MVVM.UIElements;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -395,6 +422,7 @@
 		270B353423E5DC09008F0102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -418,6 +446,7 @@
 		270B353623E5DC09008F0102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UIElementsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -435,6 +464,7 @@
 		270B353723E5DC09008F0102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UIElementsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
