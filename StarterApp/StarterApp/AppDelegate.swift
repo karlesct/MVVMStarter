@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UIElements
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        setupApplication()
+        
         return true
     }
 
@@ -35,3 +39,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate {
+    
+    // MARK: - Helpers
+    
+    func setupApplication() {
+        
+        setupFonts()
+    }
+    
+    func setupFonts() {
+       
+        UIFont.loadCustomFonts()
+    }
+
+}

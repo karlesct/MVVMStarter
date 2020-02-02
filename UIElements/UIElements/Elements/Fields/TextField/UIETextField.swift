@@ -46,7 +46,7 @@ extension UIETextField {
     
     func setupUIE() {
         
-        self.textColor = UIColor.Palette.ComplementaryColors.blueDefault
+        //self.textColor = UIColor.Palette.ComplementaryColors.blueDefault
     }
     
 }

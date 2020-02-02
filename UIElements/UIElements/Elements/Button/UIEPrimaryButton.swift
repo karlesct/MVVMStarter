@@ -46,7 +46,13 @@ extension UIEPrimaryButton {
     
     func setupUIE() {
         
-    
+        self.setBackgroundColor(UIEColors.Primary.blueOne, for: .highlighted)
+            
+        self.setBackgroundColor(UIEColors.Primary.blueOneSeventyFiveOfInk, for: .normal)
+            
+        self.setBackgroundColor(UIEColors.Primary.white, for: .disabled)
+        titleLabel?.font = UIEFonts.bold.with(size: 20)
+        
     }
     
 }

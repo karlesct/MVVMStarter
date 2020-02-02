@@ -14,8 +14,22 @@
 		270B35D223E5E5B8008F0102 /* UIETextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B35D123E5E5B8008F0102 /* UIETextField.swift */; };
 		27FAF19F23E7430D00E8B554 /* UIEPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF19E23E7430D00E8B554 /* UIEPrimaryButton.swift */; };
 		27FAF1A223E7455300E8B554 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF1A123E7455300E8B554 /* UIColor+Hex.swift */; };
-		27FAF1A423E745F800E8B554 /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF1A323E745F800E8B554 /* UIColor+Palette.swift */; };
+		27FAF1A423E745F800E8B554 /* UIEColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF1A323E745F800E8B554 /* UIEColors.swift */; };
 		27FAF1A623E74BE700E8B554 /* UIESecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF1A523E74BE700E8B554 /* UIESecondaryButton.swift */; };
+		27FAF1AB23E74D5B00E8B554 /* UIButton+BackgroundColorForState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF1AA23E74D5B00E8B554 /* UIButton+BackgroundColorForState.swift */; };
+		27FAF1AE23E74FD900E8B554 /* UIEFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF1AD23E74FD900E8B554 /* UIEFonts.swift */; };
+		27FAF1BB23E750A400E8B554 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27FAF1B123E750A300E8B554 /* OpenSans-SemiboldItalic.ttf */; };
+		27FAF1BC23E750A400E8B554 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27FAF1B223E750A300E8B554 /* OpenSans-Italic.ttf */; };
+		27FAF1BD23E750A400E8B554 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27FAF1B323E750A300E8B554 /* OpenSans-Light.ttf */; };
+		27FAF1BE23E750A400E8B554 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27FAF1B423E750A300E8B554 /* OpenSans-BoldItalic.ttf */; };
+		27FAF1BF23E750A400E8B554 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27FAF1B523E750A300E8B554 /* OpenSans-Bold.ttf */; };
+		27FAF1C023E750A400E8B554 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27FAF1B623E750A400E8B554 /* OpenSans-ExtraBoldItalic.ttf */; };
+		27FAF1C123E750A400E8B554 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27FAF1B723E750A400E8B554 /* OpenSans-ExtraBold.ttf */; };
+		27FAF1C223E750A400E8B554 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27FAF1B823E750A400E8B554 /* OpenSans-LightItalic.ttf */; };
+		27FAF1C323E750A400E8B554 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27FAF1B923E750A400E8B554 /* OpenSans-Semibold.ttf */; };
+		27FAF1C423E750A400E8B554 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27FAF1BA23E750A400E8B554 /* OpenSans-Regular.ttf */; };
+		27FAF1C723E750F000E8B554 /* UIFont+LoadCustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF1C623E750F000E8B554 /* UIFont+LoadCustomFonts.swift */; };
+		27FAF1C923E751AD00E8B554 /* UIFont+ShowAllFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF1C823E751AD00E8B554 /* UIFont+ShowAllFonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +53,22 @@
 		270B35D123E5E5B8008F0102 /* UIETextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIETextField.swift; sourceTree = "<group>"; };
 		27FAF19E23E7430D00E8B554 /* UIEPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEPrimaryButton.swift; sourceTree = "<group>"; };
 		27FAF1A123E7455300E8B554 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
-		27FAF1A323E745F800E8B554 /* UIColor+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
+		27FAF1A323E745F800E8B554 /* UIEColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEColors.swift; sourceTree = "<group>"; };
 		27FAF1A523E74BE700E8B554 /* UIESecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIESecondaryButton.swift; sourceTree = "<group>"; };
+		27FAF1AA23E74D5B00E8B554 /* UIButton+BackgroundColorForState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+BackgroundColorForState.swift"; sourceTree = "<group>"; };
+		27FAF1AD23E74FD900E8B554 /* UIEFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEFonts.swift; sourceTree = "<group>"; };
+		27FAF1B123E750A300E8B554 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		27FAF1B223E750A300E8B554 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		27FAF1B323E750A300E8B554 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		27FAF1B423E750A300E8B554 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		27FAF1B523E750A300E8B554 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		27FAF1B623E750A400E8B554 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		27FAF1B723E750A400E8B554 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		27FAF1B823E750A400E8B554 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		27FAF1B923E750A400E8B554 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		27FAF1BA23E750A400E8B554 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		27FAF1C623E750F000E8B554 /* UIFont+LoadCustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+LoadCustomFonts.swift"; sourceTree = "<group>"; };
+		27FAF1C823E751AD00E8B554 /* UIFont+ShowAllFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+ShowAllFonts.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +113,7 @@
 			children = (
 				270B35CB23E5E3FA008F0102 /* Elements */,
 				270B35C723E5E39B008F0102 /* Utils */,
+				27FAF1AF23E7508100E8B554 /* Resources */,
 				270B352123E5DC09008F0102 /* UIElements.h */,
 			);
 			path = UIElements;
@@ -102,7 +131,8 @@
 		270B35C723E5E39B008F0102 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				27FAF1A023E7439400E8B554 /* Color */,
+				27FAF1AC23E74EC200E8B554 /* Fonts */,
+				27FAF1A023E7439400E8B554 /* Colors */,
 				270B35C823E5E3A1008F0102 /* Plist */,
 			);
 			path = Utils;
@@ -153,19 +183,79 @@
 		27FAF19D23E742E600E8B554 /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				27FAF1A923E74D3600E8B554 /* Extensions */,
 				27FAF19E23E7430D00E8B554 /* UIEPrimaryButton.swift */,
 				27FAF1A523E74BE700E8B554 /* UIESecondaryButton.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
 		};
-		27FAF1A023E7439400E8B554 /* Color */ = {
+		27FAF1A023E7439400E8B554 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				27FAF1A823E74CC100E8B554 /* Extensions */,
+				27FAF1A323E745F800E8B554 /* UIEColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		27FAF1A823E74CC100E8B554 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				27FAF1A123E7455300E8B554 /* UIColor+Hex.swift */,
-				27FAF1A323E745F800E8B554 /* UIColor+Palette.swift */,
 			);
-			path = Color;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		27FAF1A923E74D3600E8B554 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				27FAF1AA23E74D5B00E8B554 /* UIButton+BackgroundColorForState.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		27FAF1AC23E74EC200E8B554 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				27FAF1C523E750C100E8B554 /* Extensions */,
+				27FAF1AD23E74FD900E8B554 /* UIEFonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		27FAF1AF23E7508100E8B554 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27FAF1B023E7508C00E8B554 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		27FAF1B023E7508C00E8B554 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				27FAF1B523E750A300E8B554 /* OpenSans-Bold.ttf */,
+				27FAF1B423E750A300E8B554 /* OpenSans-BoldItalic.ttf */,
+				27FAF1B723E750A400E8B554 /* OpenSans-ExtraBold.ttf */,
+				27FAF1B623E750A400E8B554 /* OpenSans-ExtraBoldItalic.ttf */,
+				27FAF1B223E750A300E8B554 /* OpenSans-Italic.ttf */,
+				27FAF1B323E750A300E8B554 /* OpenSans-Light.ttf */,
+				27FAF1B823E750A400E8B554 /* OpenSans-LightItalic.ttf */,
+				27FAF1BA23E750A400E8B554 /* OpenSans-Regular.ttf */,
+				27FAF1B923E750A400E8B554 /* OpenSans-Semibold.ttf */,
+				27FAF1B123E750A300E8B554 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		27FAF1C523E750C100E8B554 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				27FAF1C623E750F000E8B554 /* UIFont+LoadCustomFonts.swift */,
+				27FAF1C823E751AD00E8B554 /* UIFont+ShowAllFonts.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +351,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27FAF1C423E750A400E8B554 /* OpenSans-Regular.ttf in Resources */,
+				27FAF1BD23E750A400E8B554 /* OpenSans-Light.ttf in Resources */,
+				27FAF1C023E750A400E8B554 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				27FAF1C123E750A400E8B554 /* OpenSans-ExtraBold.ttf in Resources */,
+				27FAF1C323E750A400E8B554 /* OpenSans-Semibold.ttf in Resources */,
+				27FAF1BB23E750A400E8B554 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				27FAF1BE23E750A400E8B554 /* OpenSans-BoldItalic.ttf in Resources */,
+				27FAF1BF23E750A400E8B554 /* OpenSans-Bold.ttf in Resources */,
+				27FAF1C223E750A400E8B554 /* OpenSans-LightItalic.ttf in Resources */,
+				27FAF1BC23E750A400E8B554 /* OpenSans-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +379,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				27FAF1A623E74BE700E8B554 /* UIESecondaryButton.swift in Sources */,
-				27FAF1A423E745F800E8B554 /* UIColor+Palette.swift in Sources */,
+				27FAF1A423E745F800E8B554 /* UIEColors.swift in Sources */,
+				27FAF1C723E750F000E8B554 /* UIFont+LoadCustomFonts.swift in Sources */,
 				27FAF19F23E7430D00E8B554 /* UIEPrimaryButton.swift in Sources */,
+				27FAF1C923E751AD00E8B554 /* UIFont+ShowAllFonts.swift in Sources */,
 				27FAF1A223E7455300E8B554 /* UIColor+Hex.swift in Sources */,
+				27FAF1AB23E74D5B00E8B554 /* UIButton+BackgroundColorForState.swift in Sources */,
 				270B35CF23E5E47C008F0102 /* UIEBaseField.swift in Sources */,
+				27FAF1AE23E74FD900E8B554 /* UIEFonts.swift in Sources */,
 				270B35D223E5E5B8008F0102 /* UIETextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
