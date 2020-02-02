@@ -12,6 +12,10 @@
 		270B352F23E5DC09008F0102 /* UIElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 270B352123E5DC09008F0102 /* UIElements.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		270B35CF23E5E47C008F0102 /* UIEBaseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B35CE23E5E47C008F0102 /* UIEBaseField.swift */; };
 		270B35D223E5E5B8008F0102 /* UIETextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B35D123E5E5B8008F0102 /* UIETextField.swift */; };
+		27FAF19F23E7430D00E8B554 /* UIEPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF19E23E7430D00E8B554 /* UIEPrimaryButton.swift */; };
+		27FAF1A223E7455300E8B554 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF1A123E7455300E8B554 /* UIColor+Hex.swift */; };
+		27FAF1A423E745F800E8B554 /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF1A323E745F800E8B554 /* UIColor+Palette.swift */; };
+		27FAF1A623E74BE700E8B554 /* UIESecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAF1A523E74BE700E8B554 /* UIESecondaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,10 @@
 		270B352E23E5DC09008F0102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		270B35CE23E5E47C008F0102 /* UIEBaseField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEBaseField.swift; sourceTree = "<group>"; };
 		270B35D123E5E5B8008F0102 /* UIETextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIETextField.swift; sourceTree = "<group>"; };
+		27FAF19E23E7430D00E8B554 /* UIEPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEPrimaryButton.swift; sourceTree = "<group>"; };
+		27FAF1A123E7455300E8B554 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		27FAF1A323E745F800E8B554 /* UIColor+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
+		27FAF1A523E74BE700E8B554 /* UIESecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIESecondaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 		270B35C723E5E39B008F0102 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				27FAF1A023E7439400E8B554 /* Color */,
 				270B35C823E5E3A1008F0102 /* Plist */,
 			);
 			path = Utils;
@@ -110,6 +119,7 @@
 		270B35CB23E5E3FA008F0102 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
+				27FAF19D23E742E600E8B554 /* Button */,
 				270B35CC23E5E406008F0102 /* Fields */,
 			);
 			path = Elements;
@@ -138,6 +148,24 @@
 				270B35D123E5E5B8008F0102 /* UIETextField.swift */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		27FAF19D23E742E600E8B554 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				27FAF19E23E7430D00E8B554 /* UIEPrimaryButton.swift */,
+				27FAF1A523E74BE700E8B554 /* UIESecondaryButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		27FAF1A023E7439400E8B554 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				27FAF1A123E7455300E8B554 /* UIColor+Hex.swift */,
+				27FAF1A323E745F800E8B554 /* UIColor+Palette.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27FAF1A623E74BE700E8B554 /* UIESecondaryButton.swift in Sources */,
+				27FAF1A423E745F800E8B554 /* UIColor+Palette.swift in Sources */,
+				27FAF19F23E7430D00E8B554 /* UIEPrimaryButton.swift in Sources */,
+				27FAF1A223E7455300E8B554 /* UIColor+Hex.swift in Sources */,
 				270B35CF23E5E47C008F0102 /* UIEBaseField.swift in Sources */,
 				270B35D223E5E5B8008F0102 /* UIETextField.swift in Sources */,
 			);

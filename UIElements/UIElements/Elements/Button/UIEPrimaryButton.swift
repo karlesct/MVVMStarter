@@ -1,15 +1,15 @@
 //
-//  UIETextField.swift
+//  UIEButton.swift
 //  UIElements
 //
-//  Created by Carles Cañadas Torrents on 01/02/2020.
+//  Created by Carles Cañadas Torrents on 02/02/2020.
 //  Copyright © 2020 karlesct. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-public class UIETextField: UITextField, UIEBaseField  {
+public class UIEPrimaryButton: UIButton  {
     
     // MARK: - Fields
     
@@ -40,14 +40,13 @@ public class UIETextField: UITextField, UIEBaseField  {
 }
 
 
-extension UIETextField {
+extension UIEPrimaryButton {
     
     // MARK: - Helpers
     
     func setupUIE() {
         
-        self.textColor = UIColor.Palette.ComplementaryColors.blueDefault
+    
     }
     
 }
-
