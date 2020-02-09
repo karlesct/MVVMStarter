@@ -11,10 +11,17 @@
          location = "group:Dependencies/Dependencies.xcodeproj">
       </FileRef>
    </Group>
-   <FileRef
-      location = "group:UIDesignSystem/UIDesignSystem.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:UIElements/UIElements.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "View">
+      <FileRef
+         location = "group:View/View.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:UIDesignSystem/UIDesignSystem.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:UIElements/UIElements.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
