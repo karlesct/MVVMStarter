@@ -24,4 +24,11 @@
          location = "group:UIElements/UIElements.xcodeproj">
       </FileRef>
    </Group>
+   <Group
+      location = "container:"
+      name = "Core">
+      <FileRef
+         location = "group:ViewModel/ViewModel.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
