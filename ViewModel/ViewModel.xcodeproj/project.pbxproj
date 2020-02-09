@@ -12,6 +12,8 @@
 		27EFFB8223F06C69002E8372 /* ViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 27EFFB7423F06C69002E8372 /* ViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27EFFBB923F06E76002E8372 /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EFFBB823F06E76002E8372 /* Repository.framework */; };
 		27EFFBBA23F06E76002E8372 /* Repository.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27EFFBB823F06E76002E8372 /* Repository.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27EFFC3623F07121002E8372 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EFFC3523F07121002E8372 /* Service.framework */; };
+		27EFFC3723F07121002E8372 /* Service.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27EFFC3523F07121002E8372 /* Service.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				27EFFC3723F07121002E8372 /* Service.framework in Embed Frameworks */,
 				27EFFBBA23F06E76002E8372 /* Repository.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -46,6 +49,7 @@
 		27EFFB7F23F06C69002E8372 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 		27EFFB8123F06C69002E8372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27EFFBB823F06E76002E8372 /* Repository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Repository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EFFC3523F07121002E8372 /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27EFFC3623F07121002E8372 /* Service.framework in Frameworks */,
 				27EFFBB923F06E76002E8372 /* Repository.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,6 +113,7 @@
 		27EFFBB723F06E76002E8372 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27EFFC3523F07121002E8372 /* Service.framework */,
 				27EFFBB823F06E76002E8372 /* Repository.framework */,
 			);
 			name = Frameworks;
