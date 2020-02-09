@@ -17,12 +17,16 @@
       <FileRef
          location = "group:View/View.xcodeproj">
       </FileRef>
-      <FileRef
-         location = "group:UIDesignSystem/UIDesignSystem.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:UIElements/UIElements.xcodeproj">
-      </FileRef>
+      <Group
+         location = "container:"
+         name = "UIDesignSystem">
+         <FileRef
+            location = "group:UIDesignSystem/UIDesignSystem.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:UIElements/UIElements.xcodeproj">
+         </FileRef>
+      </Group>
    </Group>
    <Group
       location = "container:"
@@ -31,7 +35,20 @@
          location = "group:ViewModel/ViewModel.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:Repository/Repository.xcodeproj">
+         location = "group:Service/Service.xcodeproj">
       </FileRef>
+      <Group
+         location = "container:"
+         name = "Repository">
+         <FileRef
+            location = "group:Repository/Repository.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Remote/Remote.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Local/Local.xcodeproj">
+         </FileRef>
+      </Group>
    </Group>
 </Workspace>
