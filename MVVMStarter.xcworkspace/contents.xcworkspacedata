@@ -30,5 +30,8 @@
       <FileRef
          location = "group:ViewModel/ViewModel.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:Repository/Repository.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
